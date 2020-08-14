@@ -56,12 +56,10 @@
 		0AC67CB224E60BF400106B79 /* 08 - DollarsToCents */ = {
 			isa = PBXGroup;
 			children = (
-				0AC67CB324E60BF400106B79 /* AppDelegate.swift */,
-				0AC67CB524E60BF400106B79 /* SceneDelegate.swift */,
-				0AC67CB724E60BF400106B79 /* ContentView.swift */,
 				0AC67CB924E60BF500106B79 /* Assets.xcassets */,
-				0AC67CBE24E60BF500106B79 /* LaunchScreen.storyboard */,
 				0AC67CC124E60BF500106B79 /* Info.plist */,
+				0AC67CC724E60C0B00106B79 /* Delegate */,
+				0AC67CC824E60C1200106B79 /* View */,
 				0AC67CBB24E60BF500106B79 /* Preview Content */,
 			);
 			path = "08 - DollarsToCents";
@@ -73,6 +71,24 @@
 				0AC67CBC24E60BF500106B79 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0AC67CC724E60C0B00106B79 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				0AC67CB324E60BF400106B79 /* AppDelegate.swift */,
+				0AC67CB524E60BF400106B79 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		0AC67CC824E60C1200106B79 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0AC67CBE24E60BF500106B79 /* LaunchScreen.storyboard */,
+				0AC67CB724E60BF400106B79 /* ContentView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
